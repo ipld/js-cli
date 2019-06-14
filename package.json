@@ -1,0 +1,31 @@
+{
+  "name": "@ipld/cli",
+  "version": "0.0.0-dev",
+  "description": "IPLD Command Line Interface",
+  "main": "index.js",
+  "bin": {
+    "ipld": "cli.js",
+    "@ipld/cli": "cli.js"
+  },
+  "dependencies": {
+    "@ipld/block": "^2.0.4",
+    "@ipld/printify": "0.0.0",
+    "cids": "^0.7.1",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
+  "license": "(Apache-2.0 AND MIT)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipld/js-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ipld/js-cli/issues"
+  },
+  "homepage": "https://github.com/ipld/js-cli#readme"
+}
